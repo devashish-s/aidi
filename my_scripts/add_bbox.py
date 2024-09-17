@@ -27,7 +27,7 @@ def add_bboxes_to_annotations(json_file_path):
 
 
 # Paths to your dataset JSON files
-train_json_path = "/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_augmented_keypoints.json"
+train_json_path = "/workspace/ai-tailer-detectron/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_augmented_keypoints.json"
 #train_json_path = '/home/nithin/Downloads/SIZE/via_project_9Sep2024_11h34m_coco.json'
 # val_json_path = '/home/nithin/Desktop/detectron2/detectron2/dataset/augmented_side/val_augmented_side_keypoints.json'
 
