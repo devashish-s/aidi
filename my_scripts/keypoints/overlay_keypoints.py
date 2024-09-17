@@ -46,10 +46,10 @@ if __name__ == "__main__":
     # json_file = "/media/nithin/17b8fbe0-a0a3-46d6-bb0e-d8bebe7bcbd0/experimental/KeypointsRepos/keypoint-detection/dataset/augmented_side/train_augmented_side_keypoints.json"  # Replace with your JSON path
     # images_folder = "/media/nithin/17b8fbe0-a0a3-46d6-bb0e-d8bebe7bcbd0/experimental/KeypointsRepos/keypoint-detection/dataset/augmented_side/train_side_pose"  # Replace with your images folder path
     # output_folder = "output_keypoints_visualization"
-    json_file = "/ai-tailer-detectron/input_data/data_kps.json"  # Replace with your JSON path
-    images_folder = "/ai-tailer-detectron/input_data/image_processed/"  # Replace with your images folder path
+    json_file = "/workspace/ai-tailer-detectron/input_data/data_kps.json"  # Replace with your JSON path
+    images_folder = "/workspace/ai-tailer-detectron/input_data/image_processed/"  # Replace with your images folder path
     # json_file = "/media/nithin/17b8fbe0-a0a3-46d6-bb0e-d8bebe7bcbd0/experimental/KeypointsRepos/keypoint-detection/dataset/augmented_side/train_augmented_side_keypoints.json"  # Replace with your JSON path
     # images_folder = "/media/nithin/17b8fbe0-a0a3-46d6-bb0e-d8bebe7bcbd0/experimental/KeypointsRepos/keypoint-detection/dataset/augmented_side/train_side_pose"  # Replace with your images folder path
-    output_folder = "/ai-tailer-detectron/output_keypoints_visualization"
+    output_folder = "/workspace/ai-tailer-detectron/output_keypoints_visualization"
 
     visualize_keypoints(json_file, images_folder, output_folder)
