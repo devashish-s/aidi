@@ -28,12 +28,12 @@ val_name = f"val_{pose_name}_keypoints"
 
 
 # Provide Json Path
-train_json_path = "/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_augmented_keypoints.json"
-val_json_path = "/ai-tailer-detectron/input_data/data_for_training/augmented_data/val_augmented_keypoints.json"
+train_json_path = "/workspace/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_augmented_keypoints.json"
+val_json_path = "/workspace/ai-tailer-detectron/input_data/data_for_training/augmented_data/val_augmented_keypoints.json"
 
 # Specify train and val Images dir
-train_data_dir = "/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_data"
-val_data_dir = "/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_data"
+train_data_dir = "/workspace/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_data"
+val_data_dir = "/workspace/ai-tailer-detectron/input_data/data_for_training/augmented_data/train_data"
 
 # Register the datasets
 register_coco_instances(train_name, {},
