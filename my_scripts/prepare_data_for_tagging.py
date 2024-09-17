@@ -49,6 +49,6 @@ def process_images(input_folder, output_folder, target_width=720, target_height=
 
 
 if __name__ == "__main__":
-    input_folder = "/ai-tailer-detectron/input_data/images/front"  # Replace with your input folder path
-    output_folder = "/ai-tailer-detectron/output_data/images/front"  # Replace with your output folder path
+    input_folder = "/workspace/ai-tailer-detectron/ai-tailer-detectron/input_data/images/front"  # Replace with your input folder path
+    output_folder = "/workspace/ai-tailer-detectron/ai-tailer-detectron/output_data/images/front"  # Replace with your output folder path
     process_images(input_folder, output_folder)
