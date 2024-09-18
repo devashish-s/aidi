@@ -36,9 +36,9 @@ cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7   # set a custom testing threshold
 predictor = DefaultPredictor(cfg)
 
 
-imagePaths = glob.glob("/home/nithin/Desktop/detectron2/side/*")
+imagePaths = glob.glob("/workspace/ai-tailer-detectron/side/*")
 
-output_path = "/home/nithin/Desktop/detectron2/side_vis/"
+output_path = "/workspace/ai-tailer-detectron/side_vis/"
 
 print("totalImages: ", len(imagePaths))
 for imagePath in imagePaths:
